@@ -8,6 +8,41 @@
 <body>
 <div class="w3-container">
 	<div class="w3-panel w3-blue w3-card-4">&lt;company_logo&gt;</div></div>
+<div class="w3-row-padding">
+	<div class="w3-half">
+		<table class="w3-table-all w3-card-4 w3-auto">
+			<tbody>
+				<tr>
+					<th>CLIENT INFORMATION</th>
+					<th>&nbsp;</th>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-size:11px;">NAME:&lt;name&gt;</span><br />
+						<span style="font-size:11px;">PHONE:&nbsp;&lt;home_phone&gt;<br />
+							EMAIL:&lt;email_with_linebreaks&gt;</span></td>
+					<td>
+						<span style="font-size:11px;">ADDRESS:&nbsp;<br />
+							&lt;formatted_client_address&gt;</span></td>
+				</tr>
+			</tbody></table></div>
+	<div class="w3-half">
+		<table class="w3-table-all w3-card-4 w3-auto">
+			<tbody>
+				<tr>
+					<th>EVENT INFORMATION</th>
+					<th>&nbsp;</th>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-size:11px;">DATE:&nbsp;&lt;event_date_long&gt;<br />
+							EVENT TYPE:&nbsp;&lt;event_type&gt;<br />
+							TIME:&nbsp;&lt;start_time&gt;-&lt;end_time&gt;</span></td>
+					<td>
+						<span style="font-size:11px;">VENUE: &lt;event_location&gt;<br />
+							&lt;event_location_formatted_address&gt;</span></td>
+				</tr>
+			</tbody></table></div></div>&nbsp;
 <table class="w3-table-all w3-card-4 w3-auto">
 	<tbody>
 		<tr>
@@ -38,7 +73,7 @@
 				<a class="lightbox" href="#a02"><img src="&lt;addon2_image_1_url&gt;" /> </a>
 				<div class="lightbox-target" id="a02"><img src="&lt;addon2_image_1_url&gt;" /> 
 					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
-			<td style="text-align: center;">&lt;addon2_description&gt;</td>
+			<td>&lt;addon2_description&gt;</td>
 			<td style="text-align: center;">&lt;addon2_default_price&gt;</td>
 		</tr>
 		<tr>
@@ -46,7 +81,9 @@
 				<a class="lightbox" href="#a03"><img src="&lt;addon3_image_1_url&gt;" /> </a>
 				<div class="lightbox-target" id="a03"><img src="&lt;addon3_image_1_url&gt;" /> 
 					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
-			<td style="text-align: center;">&lt;addon3_description&gt;</td>
+			<td>
+				<div style="text-align: center;">
+					<div style="display: inline-block; text-align: left;">&lt;addon3_description&gt;</div></div></td>
 			<td style="text-align: center;">&lt;addon3_default_price&gt;</td>
 		</tr>
 		<tr>
@@ -54,7 +91,9 @@
 				<a class="lightbox" href="#a04"><img src="&lt;addon4_image_1_url&gt;" /> </a>
 				<div class="lightbox-target" id="a04"><img src="&lt;addon4_image_1_url&gt;" /> 
 					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
-			<td style="text-align: center;">&lt;addon4_description&gt;</td>
+			<td>
+				<div style="text-align: center;">
+					<div style="display: inline-block; text-align: left;">&lt;addon4_description&gt;</div></div></td>
 			<td style="text-align: center;">&lt;addon4_default_price&gt;</td>
 		</tr>
 		<tr>
