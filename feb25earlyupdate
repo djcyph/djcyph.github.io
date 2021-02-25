@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
+	<link href="https://djcyph.github.io/lightbox.css" rel="stylesheet" /><meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="w3-container">
+	<div class="w3-panel w3-blue w3-card-4">&lt;company_logo&gt;</div></div>
+	<div class="w3-half">
+		<table class="w3-table-all w3-card-4 w3-auto" style="max-width:500px;margin:0px 0px 0px 26em;">
+			<tbody>
+				<tr>
+					<th>CLIENT INFORMATION</th>
+					<th>&nbsp;</th>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-size:11px;">NAME:&lt;name&gt;</span><br />
+						<span style="font-size:11px;">PHONE:&nbsp;&lt;home_phone&gt;<br />
+							EMAIL:&lt;email_with_linebreaks&gt;</span></td>
+					<td>
+						<span style="font-size:11px;">ADDRESS:&nbsp;<br />
+							&lt;formatted_client_address&gt;</span></td>
+				</tr>
+			</tbody></table></div>
+	<div class="w3-half">
+		<table class="w3-table-all w3-card-4 w3-auto" style="max-width:500px;margin:0px 0px 0px 70px;">
+			<tbody>
+				<tr>
+					<th>EVENT INFORMATION</th>
+					<th>&nbsp;</th>
+				</tr>
+				<tr>
+					<td>
+						<span style="font-size:11px;">DATE:&nbsp;&lt;event_date_long&gt;<br />
+							EVENT TYPE:&nbsp;&lt;event_type&gt;<br />
+							TIME:&nbsp;&lt;start_time&gt;-&lt;end_time&gt;</span></td>
+					<td>
+						<span style="font-size:11px;">VENUE: &lt;event_location&gt;<br />
+							&lt;event_location_formatted_address&gt;</span></td>
+				</tr>
+			</tbody></table></div></div>&nbsp;
+<table class="w3-table-all w3-card-4 w3-auto">
+	<tbody>
+		<tr>
+			<th>PACKAGE</th>
+		</tr>
+		<tr>
+			<td><img src="&lt;package_image_1_url&gt;" style="margin:10px 50px 0px 60px;" />
+				<div class="w3-right">&lt;package_description&gt;</div></td>
+		</tr>
+	</tbody></table>&nbsp;
+<table class="w3-table-all w3-card-4 w3-auto">
+	<tbody>
+		<tr>
+			<th style="text-align: center;">ADD ON</th>
+			<th style="text-align: center;">DESCRIPTION</th>
+			<th style="text-align: center;">RATE</th>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon1&gt;<br />
+				<a class="lightbox" href="#a01"><img src="&lt;addon1_image_1_url&gt;" /> </a>
+				<div class="lightbox-target" id="a01"><img src="&lt;addon1_image_1_url&gt;" /> 
+					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+			<td style="text-align: center;">&lt;addon1_description&gt;</td>
+			<td style="text-align: center;">&lt;addon1_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon2&gt;<br />
+				<a class="lightbox" href="#a02"><img src="&lt;addon2_image_1_url&gt;" /> </a>
+				<div class="lightbox-target" id="a02"><img src="&lt;addon2_image_1_url&gt;" /> 
+					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+			<td>&lt;addon2_description&gt;</td>
+			<td style="text-align: center;">&lt;addon2_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon3&gt;<br />
+				<a class="lightbox" href="#a03"><img src="&lt;addon3_image_1_url&gt;" /> </a>
+				<div class="lightbox-target" id="a03"><img src="&lt;addon3_image_1_url&gt;" /> 
+					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+			<td>
+				<div style="text-align: center;">
+					<div style="display: inline-block; text-align: left;">&lt;addon3_description&gt;</div></div></td>
+			<td style="text-align: center;">&lt;addon3_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon4&gt;<br />
+				<a class="lightbox" href="#a04"><img src="&lt;addon4_image_1_url&gt;" /> </a>
+				<div class="lightbox-target" id="a04"><img src="&lt;addon4_image_1_url&gt;" /> 
+					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+			<td>
+				<div style="text-align: center;">
+					<div style="display: inline-block; text-align: left;">&lt;addon4_description&gt;</div></div></td>
+			<td style="text-align: center;">&lt;addon4_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon5&gt;<br />
+				<a class="lightbox" href="#a05"><img src="&lt;addon5_image_1_url&gt;" /> </a>
+				<div class="lightbox-target" id="a05"><img src="&lt;addon5_image_1_url&gt;" /> 
+					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+			<td style="text-align: center;">&lt;addon5_description&gt;</td>
+			<td style="text-align: center;">&lt;addon5_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon6&gt;<br />
+				<a class="lightbox" href="#a06"><img src="&lt;addon6_image_1_url&gt;" /> </a>
+				<div class="lightbox-target" id="a06"><img src="&lt;addon6_image_1_url&gt;" /> 
+					<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+			<td style="text-align: center;">&lt;addon6_description&gt;</td>
+			<td style="text-align: center;">&lt;addon6_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon7&gt;<br />
+				<img src="&lt;addon7_image_1_url&gt;" /></td>
+			<td style="text-align: center;">&lt;addon7_description&gt;</td>
+			<td style="text-align: center;">&lt;addon7_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon8&gt;<br />
+				<img src="&lt;addon8_image_1_url&gt;" /></td>
+			<td style="text-align: center;">&lt;addon8_description&gt;</td>
+			<td style="text-align: center;">&lt;addon8_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon9&gt;<br />
+				<img src="&lt;addon9_image_1_url&gt;" /></td>
+			<td style="text-align: center;">&lt;addon9_description&gt;</td>
+			<td style="text-align: center;">&lt;addon9_default_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">&lt;addon10&gt;<br />
+				<img src="&lt;addon10_image_1_url&gt;" /></td>
+			<td style="text-align: center;">&lt;addon10_description&gt;</td>
+			<td style="text-align: center;">&lt;addon10_default_price&gt;</td>
+		</tr>
+	</tbody></table></body>
+</html>
