@@ -132,12 +132,3 @@ EDIT ON
   empty-cells: hide;
 }
 
-/* PRESENTATONAL STYLES */
-body {
-  background: #333;
-  padding: 25px 0;
-  color: #fff;
-  font-family: Helvetica;
-  font-size: 3em;
-  text-align: center;
-}
