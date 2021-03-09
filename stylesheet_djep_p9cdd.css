@@ -124,7 +124,7 @@ body.djep-body[style*="background-color:"] {background-color:#FFFFFF;}
     text-align: left;
     margin: 0 auto;
 
-    width: 800px; /* VERY IMPORTANT - DNE */
+    width: 1000px; /* VERY IMPORTANT - DNE */
     border-radius: 5px;
     box-shadow: #999 0px 2px 8px;
     background: #FFFFFF; /* VERY IMPORTANT - DNE */
