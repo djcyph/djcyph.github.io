@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet" />
+	<link href="https://djcyph.github.io/lightbox.css" rel="stylesheet" />
+	<title></title>
+</head>
+<body>
+<div class="w3-container">
+	<div class="w3-panel w3-card-4">
+		<div class="w3-container w3-left">&lt;company_logo&gt;</div>
+		<div class="w3-container w3-right" style="text-align: right;">
+			<span style="font-size:10px;">PROPOSAL PREPARED BY:&nbsp;</span> 
+			<span style="font-size:11px;">&lt;salesperson&gt;<br />
+				732.952.2628<br />
+				&lt;salesperson_email&gt;</span></div></div>
+	<div class="w3-main" id="belowtopnav">
+		<div class="w3-half">
+			<table class="w3-table-all w3-card-4 w3-auto" style="max-width:500px;">
+				<tbody>
+					<tr>
+						<th>CLIENT INFORMATION</th>
+						<th>&nbsp;</th>
+					</tr>
+					<tr>
+						<td>
+							<span style="font-size:11px;">NAME:&lt;name&gt;</span><br />
+							<span style="font-size:11px;">PHONE:&nbsp;&lt;home_phone&gt;<br />
+								EMAIL:&lt;email_with_linebreaks&gt;</span></td>
+						<td>
+							<span style="font-size:11px;">ADDRESS:&nbsp;<br />
+								&lt;formatted_client_address&gt;</span></td>
+					</tr>
+				</tbody></table></div>
+		<div class="w3-half">
+			<table class="w3-table-all w3-card-4 w3-auto" style="max-width:500px;">
+				<tbody>
+					<tr>
+						<th>EVENT INFORMATION</th>
+						<th>&nbsp;</th>
+					</tr>
+					<tr>
+						<td>
+							<span style="font-size:11px;">DATE:&nbsp;&lt;event_date_long&gt;<br />
+								EVENT TYPE:&nbsp;&lt;event_type&gt;<br />
+								TIME:&nbsp;&lt;start_time&gt;-&lt;end_time&gt;</span></td>
+						<td>
+							<span style="font-size:11px;">VENUE: &lt;event_location&gt;<br />
+								&lt;event_location_formatted_address&gt;</span></td>
+					</tr>
+				</tbody></table></div>&nbsp;
+		<table class="w3-table-all w3-card-4 w3-auto">
+			<tbody>
+				<tr>
+					<th>PACKAGE</th>
+					<th style="text-align: center;">RATE</th>
+				</tr>
+				<tr>
+					<td><img src="&lt;package_image_1_url&gt;" style="margin:10px 50px 0px 60px;" />
+						<div class="w3-right">
+							<span style="font-size:11px;">&lt;package_description&gt;</span></div></td>
+					<td>
+						<span style="font-size:11px;">&lt;package_default_price&gt;</span></td>
+				</tr>
+			</tbody></table>&nbsp;
+		<table class="w3-table-all w3-card-4 w3-auto table-hide">
+			<tbody>
+				<tr>
+					<th style="text-align: center;">ADD ON</th>
+					<th style="text-align: center;">DESCRIPTION</th>
+					<th style="text-align: center;">RATE</th>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon1&gt;<br />
+							<a class="lightbox" href="#a01"><img src="&lt;addon1_image_1_url&gt;" /> </a></span>
+						<div class="lightbox-target" id="a01">
+							<span style="font-size:11px;"><img src="&lt;addon1_image_1_url&gt;" /> </span> 
+							<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon1_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt; &lt;addon1_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon2&gt;<br />
+							<a class="lightbox" href="#a02"><img src="&lt;addon2_image_1_url&gt;" /> </a></span>
+						<div class="lightbox-target" id="a02">
+							<span style="font-size:11px;"><img src="&lt;addon2_image_1_url&gt;" /> </span> 
+							<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon2_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon2_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon3&gt;<br />
+							<a class="lightbox" href="#a03"><img src="&lt;addon3_image_1_url&gt;" /> </a></span>
+						<div class="lightbox-target" id="a03">
+							<span style="font-size:11px;"><img src="&lt;addon3_image_1_url&gt;" /> </span> 
+							<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+					<td>
+						<div style="text-align: center;">
+							<div style="display: inline-block; text-align: left;">
+								<span style="font-size:11px;">&lt;addon3_description&gt;</span></div></div></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon3_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon4&gt;<br />
+							<a class="lightbox" href="#a04"><img src="&lt;addon4_image_1_url&gt;" /> </a></span>
+						<div class="lightbox-target" id="a04">
+							<span style="font-size:11px;"><img src="&lt;addon4_image_1_url&gt;" /> </span> 
+							<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+					<td>
+						<div style="text-align: center;">
+							<div style="display: inline-block; text-align: left;">
+								<span style="font-size:11px;">&lt;addon4_description&gt;</span></div></div></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon4_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon5&gt;<br />
+							<a class="lightbox" href="#a05"><img src="&lt;addon5_image_1_url&gt;" /> </a></span>
+						<div class="lightbox-target" id="a05">
+							<span style="font-size:11px;"><img src="&lt;addon5_image_1_url&gt;" /> </span> 
+							<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon5_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon5_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon6&gt;<br />
+							<a class="lightbox" href="#a06"><img src="&lt;addon6_image_1_url&gt;" /> </a></span>
+						<div class="lightbox-target" id="a06">
+							<span style="font-size:11px;"><img src="&lt;addon6_image_1_url&gt;" /> </span> 
+							<a class="lightbox-close" href="#"><!-- comment in an empty div --></a></div></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon6_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon6_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon7&gt;<br />
+							<img src="&lt;addon7_image_1_url&gt;" /></span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon7_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon7_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon8&gt;<br />
+							<img src="&lt;addon8_image_1_url&gt;" /></span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon8_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon8_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon9&gt;<br />
+							<img src="&lt;addon9_image_1_url&gt;" /></span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon9_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon9_default_price&gt;</span></td>
+				</tr>
+				<tr>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;zero_cleaner&gt;&lt;addon10&gt;&lt;/zero_cleaner&gt;<br />
+							<img src="&lt;addon10_image_1_url&gt;" /></span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;addon10_description&gt;</span></td>
+					<td style="text-align: center;">
+						<span style="font-size:11px;">&lt;currency_cleaner&gt;&lt;addon10_default_price&gt;</span></td>
+				</tr>
+			</tbody></table></div></div>
+<span style="font-size:11px;">\</span>
+<table class="w3-table-all w3-card-4 w3-auto" style="max-width:500px;">
+	<tbody>
+		<tr>
+			<th>TOTALS</th>
+			<th>&nbsp;</th>
+			<th>&lt;esignature_link&gt;</th>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td style="text-align: right;">PACKAGE:</td>
+			<td style="text-align: right;">&lt;package_price&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">&nbsp;</td>
+			<td style="text-align: right;">ADDONS:</td>
+			<td style="text-align: right;">&lt;addon_fee_total&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">&nbsp;</td>
+			<td style="text-align: right;">TAX:</td>
+			<td style="text-align: right;">&lt;tax&gt;</td>
+		</tr>
+		<tr>
+			<td style="text-align: right;">&nbsp;</td>
+			<td style="text-align: right;">TOTAL:</td>
+			<td style="text-align: right;">&lt;package_price_plus_addons_price&gt;</td>
+		</tr>
+	</tbody></table></body>
+</html>
