@@ -1256,7 +1256,16 @@ djep-SubmitHide {
 	margin-top: -5px;
 	transition: all 0.5s ease;
 	cursor: pointer;
+	visibility: hidden;
+    position: relative;
 }
+.djep-actionbutton:after {
+            visibility: visible;
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "This text replaces the original.";
+        }
 .djep-actionbutton:hover {
 	background: #000;
 	color: #FFF;
