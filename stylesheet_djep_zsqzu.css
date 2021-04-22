@@ -148,7 +148,7 @@ body.djep-body[style*="background-color:"] {
 	padding: 0px 10px;
 	text-align: left;
 	margin: 0 auto;
-	width: 818px; /* VERY IMPORTANT - DNE */
+	
 	box-shadow: #000 0px 2px 8px;
 	background: rgba(10, 10, 10, 0.8); /* VERY IMPORTANT - DNE */
 	overflow: hidden;
