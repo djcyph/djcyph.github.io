@@ -100,7 +100,7 @@ width:98%;height:400px;border:1px solid black;overflow:auto;
 /* Main Body Structures */
 
 body {
-	background-image: url('../images/smokedglass/blackbackground-dots.jpg');
+	background-image: url('https://portal.pureeventgroup.com/clients/images/smokedglass/blackbackground-dots.jpg');
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-size: cover;
