@@ -19,6 +19,7 @@ margin: 20px 20px 20px 20px;
 
 .lightbox-target {
 position: fixed;
+ height: 150px;
 background: rgba(0,0,0,.7);
 opacity: 0;
 -webkit-transition: opacity .5s ease-in-out;
