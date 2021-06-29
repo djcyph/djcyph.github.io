@@ -19,7 +19,7 @@ margin: 20px 20px 20px 20px;
 
 .lightbox-target {
 position: fixed;
-top: -100%;
+top: -50%;
 width: 50%;
 background: rgba(0,0,0,.7);
 width: 50%;
