@@ -108,7 +108,7 @@ transform:rotate(-45deg);
 
 .lightbox-target:target {
 opacity: 1;
-top: 0;
+top: 10;
 bottom: 0;
 }
 
