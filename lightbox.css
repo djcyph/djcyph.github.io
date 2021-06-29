@@ -9,7 +9,7 @@ text-align: center;
 /* Styles the thumbnail */
 
 a.lightbox img {
-height: 125px;
+height: 150px;
 border: 3px solid white;
 box-shadow: 0px 0px 8px rgba(0,0,0,.3);
 margin: 20px 20px 20px 20px;
@@ -123,13 +123,3 @@ max-width: 100%;
 .lightbox-target:target a.lightbox-close {
 top: 0px;
 }
-
-/* DEMO STYLES */
-.table-show {
-  empty-cells: show;
-}
-
-.table-hide {
-  empty-cells: hide;
-}
-
