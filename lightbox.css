@@ -6,7 +6,7 @@ a.lightbox img {
 height: 150px;
 border: 3px solid white;
 box-shadow: 0px 0px 8px rgba(0,0,0,.3);
-margin: 94px 20px 20px 20px;
+margin: 20px 20px 20px 20px;
 }
 
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
@@ -32,7 +32,7 @@ overflow: hidden;
 margin: auto;
 position: absolute;
 top: 0;
-left:0;
+left:100;
 right:0;
 bottom: 0;
 max-height: 0%;
