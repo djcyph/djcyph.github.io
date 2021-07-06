@@ -30,7 +30,7 @@ overflow: hidden;
 
 .lightbox-target img {
 margin: auto;
-position: relative;
+position: fixed;
 top: 0;
 left:0;
 right:0;
