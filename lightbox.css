@@ -32,7 +32,7 @@ overflow: hidden;
 margin: auto;
 position: absolute;
 top: 0;
-left:-500;
+left:500;
 right:0;
 bottom: 0;
 max-height: 0%;
